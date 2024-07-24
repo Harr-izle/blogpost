@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    /* height: 100vh; */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #57595D;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 700px;
+  margin-top: 20px;
+  /* border: 1px solid #776E4F; */
+}
+
+.author{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 100%;
+    color: #ccc;
+   
+}
+
+.author p{
+    font-size: 16px;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+#content img{
+    width: 700px;
+    height: 550px;
+    margin-top: 20px;  
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.post{
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.post h5{
+ font-size: 30px;
+ font-weight: bold;
+ 
+}
+
+.post p{
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+   
+}
+
+#story-twist{
+    padding: 20px;
+    margin-top: 30px;
+    
+}
+
+#story-twist h5{
+ font-size: 20px;
+ font-weight: bold;
+ 
+}
+
+#story-twist{
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+   
+}
+
+
+
+.story p{
+    font-size: 16px;
+    line-height: 25px
+}
+
+
+.conclusion{
+    padding: 20px;
+    margin-top: 30px;
+}
+.conclusion h5{
+ font-size: 20px;
+ margin-top: 5px;
+ font-weight: bold;
+ 
+}
+.conclusion p{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.icons i {
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+
